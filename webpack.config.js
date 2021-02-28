@@ -4,7 +4,9 @@ const nodeExternals = require('webpack-node-externals');
 module.exports = {
   mode: 'development',
   target: 'node',
-  entry: {},
+  entry: {
+    'hello-world': path.resolve(__dirname, './src/lambda/hello-world'),
+  },
   externals: [
     nodeExternals({
       modulesFromFile: {
