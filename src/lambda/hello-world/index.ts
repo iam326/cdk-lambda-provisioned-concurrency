@@ -1,3 +1,5 @@
 import * as Console from 'console';
 
-Console.log('hello, world!');
+export const handler = async () => {
+  Console.log('hello, world!');
+};
