@@ -2,7 +2,7 @@
 
 CDK で Lambda の Provisioned Concurrency を設定する
 
-※ 課金額が高いので、削除を忘れないようにしましょう
+※ 課金額が高いので、スタックの削除を忘れないようにしましょう
 
 ## Deploy
 
