@@ -1,8 +1,16 @@
 *.js
 !jest.config.js
 *.d.ts
+!/src/@types/*.d.ts
 node_modules
 
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# webpack
+!webpack.config.js
+dist
+
+# mac
+.DS_Store
